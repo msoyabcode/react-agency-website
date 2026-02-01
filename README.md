@@ -1,14 +1,12 @@
-# React Agency Website
+## React Agency Website
 
-This is a React + Tailwind CSS agency website.
+🚀 A responsive agency website built using React + Tailwind CSS.
 
-## Status
-🚧 Work in progress  
-Hero section completed.
+### Features
+- Responsive design (mobile-first)
+- Tailwind CSS custom theme
+- Reusable components
+- Services section with icons
 
-## Tech Stack
-- React
-- Tailwind CSS
-- Vite
-
-More sections will be added soon.
+### Status
+🛠️ In progress – more sections coming soon

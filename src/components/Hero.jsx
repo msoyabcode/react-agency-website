@@ -23,7 +23,15 @@ const Hero = () => {
                         <span className='text-primary'>Performance</span>
                         <span>Marketing</span>
                     </h1>
-                    <p className=''>At our agency, we take pride in delivering impactful solutions that combine creativity, strategy, and technology.</p>
+                    <p className='max-w-xl mx-auto text-2xl font-thin  text-dark/80 text-center mt-10
+                    '>At our agency, we take pride in delivering impactful solutions that combine creativity, strategy, and technology.</p>
+                    <div className='flex justify-center items-center gap-5 md:gap-6 mt-6 '>
+                        <button className='border-none px-6 py-2.5 rounded-full bg-primary text-dark font-semibold cursor-pointer'>Contact Me </button>
+                        <button className='border-none px-6 py-2.5 rounded-full bg-dark text-white text-dark font-semibold cursor-pointer '>Web Developer</button>
+                    </div>
+                    <div className='max-w-5xl mx-auto mt-16 shadow overflow-hidden '>
+                        <img className='w-full h-full object-cover rounded-2xl' src={assets.heroImg} alt="" />
+                    </div>
                 </div>
             </div>
         </div>
